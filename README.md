@@ -1,5 +1,4 @@
 
-
 # A formal model of mood instability
 
 ## Introduction 
