@@ -12,7 +12,11 @@ In its static form (as first outlined by Rigoli, 2019), the model proposes that 
 <p align="center">
 $V(R)=logistic((R-μ)/σ)$
 </p>
+
 where V(R) is the subjective value of a given stimulus (which, given the logistic function, is bounded between 0 and 1); _R_ is the real value of the stimulus (e.g., $10); _μ_ is the reference-point (e.g., a baseline amount of $20); and _σ_ is evaluative uncertainty. 
+
+In brief (see Zavlis et al., 2024 for details), this equation impliies that the evaluation of a stimulus is based on one's reference point: When the objective value of a stimulus is higher than that reference point (R>μ), a reward is experienced (V(R) > 0.5); when it is lower (R < μ), a punishment is experienced (V(R) < 0.5); finally, when the two are equal (i.e., the stimulus matches the reference point; R = μ), the experience is neutral (V(R) = 0.5). 
+
 
 
 
