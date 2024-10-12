@@ -9,6 +9,7 @@ In our paper, we argued that this process of evaluation can be used to explain t
 
 ## Static Evaluation
 In its static form (as first outlined by Rigoli, 2019), the model proposes that the subjective value V(R) of a stimulus is derived from a prediction error between its objective value (_R_) and a reference value (_μ_), weighted by some level of uncertainty (_σ_) and filtered through a logistic function: 
+
 <p align="center">
 $V(R)=logistic((R-μ)/σ)$
 </p>
@@ -16,8 +17,6 @@ $V(R)=logistic((R-μ)/σ)$
 where V(R) is the subjective value of a given stimulus (which, given the logistic function, is bounded between 0 and 1); _R_ is the real value of the stimulus (e.g., $10); _μ_ is the reference-point (e.g., a baseline amount of $20); and _σ_ is evaluative uncertainty. 
 
 In brief (see Zavlis et al., 2024 for details), this equation impliies that the evaluation of a stimulus is based on one's reference point: When the objective value of a stimulus is higher than that reference point (R>μ), a reward is experienced (V(R) > 0.5); when it is lower (R < μ), a punishment is experienced (V(R) < 0.5); finally, when the two are equal (i.e., the stimulus matches the reference point; R = μ), the experience is neutral (V(R) = 0.5). 
-
-
 
 
 In the first MATLAB file (Static_Evaluation.m), my team and I show that when we alter the two main parameters of this model (namely, reference point and uncertainty) we can reproduce different emotional problems (namely, depression / mania and apathy / reactivity, respectively). For a discussion on this, please see Zavlis et al. (2024). 
