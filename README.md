@@ -19,6 +19,4 @@ In brief (see Zavlis et al., 2024 for details), this equation implies that the e
 
 In the first MATLAB file (Static_Evaluation.m), I show how altering these two main parameters (in isolation, not in combination) reproduces different emotional problems. For example, setting the reference point extremely high reproduces the centuries-old observation that high-achieving (perfectionistic or narcissistic) people could suffer from depression when life falls short of their (grand) expectations. Conversely, setting the reference point extremely low yields a hypersensitivity to rewards that mirrors (hypo)mania (i.e., excessive elation in response to rewards). Finally, regarding the uncertainty parameter, setting it extremely high yields apathy (almost complete non-responsiveness to any stimuli); while setting it low yields excessive mood reactivity characteristic of those with relational pathologies. 
 
-
-
-when we alter the two main parameters of this model (namely, reference point and uncertainty), we can reproduce different emotional problems. 
+Although these patterns are notable, they do not yet reproduce unstable emotions. I turn to the instability of emotions in the next section where I ouline the dynamic version of reference-based evaluation. 
