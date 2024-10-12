@@ -9,4 +9,4 @@ In our paper, we argued that this process of evaluation can be used to explain t
 
 ## Model Architecture
 In its static form (as first outlined by Rigoli, 2019), the model proposes that the subjective value V(R) of a stimulus is derived from a prediction error between its objective value (R) and a reference value (μ), weighted by some level of uncertainty (σ) and filtered through a logistic function: 
-V(R)= logistic((R-μ)/σ)
+$V(R)= logistic((R-μ)/σ)
