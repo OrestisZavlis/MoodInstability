@@ -14,6 +14,6 @@ $V(R)=logistic((R-μ)/σ)$
 </p>
 where V(R) is the subjective value of a given stimulus (which, given the logistic function, is bounded between 0 and 1); _R_ is the real value of the stimulus (e.g., $10); _μ_ is the reference-point (e.g., a baseline amount of $20); and _σ_ is evaluative uncertainty. 
 
-In brief, 
+
 
 In the first MATLAB file (Static_Evaluation.m), my team and I show that when we alter the two main parameters of this model (namely, reference point and uncertainty) we can reproduce different emotional problems (namely, depression / mania and apathy / reactivity, respectively). For a discussion on this, please see Zavlis et al. (2024). 
