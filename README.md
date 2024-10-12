@@ -12,4 +12,3 @@ In its static form (as first outlined by Rigoli, 2019), the model proposes that 
 <p align="center">
 $V(R)=logistic((R-μ)/σ)$
 </p>
-
