@@ -24,7 +24,7 @@ In the first simulation (MATLAB file: Simulation_1_Static_Evaluation.m), I show 
 Although these patterns are notable, they do not yet reproduce unstable emotions. I turn to the instability of these emotions in the next section where I ouline the dynamic version of reference-based evaluation. 
 
 
-## Static Evaluation
+## Dynamic Evaluation
 Adding a temporal dimension to the logistic model, yields a dynamic system of (reference-based) evaluation that is predicated on the following discrete equations: 
 
 <p align="center">
