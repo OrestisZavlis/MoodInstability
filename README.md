@@ -10,7 +10,7 @@ In our paper, we argued that this process of evaluation can be used to explain t
 In its static form (as first outlined by Rigoli, 2019), the model proposes that the subjective value V(R) of a stimulus is derived from a prediction error between its objective value (_R_) and a reference value (_μ_), weighted by some level of uncertainty (_σ_) and filtered through a logistic function: 
 
 <p align="center">
-$V(R)=logistic((R-μ)/σ)$
+$V(R)=logistic(π(R-μ))$
 </p>
 
 where V(R) is the subjective value of a given stimulus (which, given the logistic function, is bounded between 0 and 1); _R_ is the real value of the stimulus (e.g., $10); _μ_ is the reference-point (e.g., a baseline amount of $20); and _σ_ is evaluative uncertainty. 
