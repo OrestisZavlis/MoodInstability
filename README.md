@@ -34,3 +34,5 @@ $V(R_t)=logistic(π(R_t-μ_t))$
 $μ_{t+1}=μ_t + α(R_t-μ_t)$
 </p>
 
+where V(R_t) refers to the affective value at time t, R_t to its raw counterpart at time t; μ_t and μ_(t+1) are the reference points at times t and t+1, respectively; π is the weight parameter; and α [0,1] is the learning rate (of the reference point). 
+
