@@ -29,6 +29,6 @@ Adding a temporal dimension to the logistic model, yields a dynamic system of (r
 
 <p align="center">
 $V(R_t)=logistic(π(R_t-μ_t))$
-$μ_t+1=μ_t + α(R_t-μ_t)
+$μ_t+1=μ_t + α(R_t-μ_t)$
 </p>
 
