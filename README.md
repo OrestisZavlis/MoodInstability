@@ -28,6 +28,7 @@ Although these patterns are notable, they do not yet reproduce unstable emotions
 Adding a temporal dimension to the logistic model, yields a dynamic system of (reference-based) evaluation that is predicated on the following discrete equations: 
 
 <p align="center">
-$V(R_t)=logistic(π(R-μ))$
+$V(R_t)=logistic(π(R_t-μ_t))$
+$μ_t+1=μ_t + α(R_t-μ_t)
 </p>
 
