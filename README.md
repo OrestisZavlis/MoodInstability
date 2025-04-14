@@ -36,3 +36,5 @@ $μ_{t+1}=μ_t + α(R_t-μ_t)$
 
 where $V(R_t)$ refers to the affective value at time _t_, $R_t$ to its raw counterpart at time _t_; $μ_t$ and $μ_{t+1}$ are the reference points at times _t_ and _t+1_, respectively; _π_ is the weight parameter; and _α_ [0,1] is the learning rate (of the reference point). 
 
+In brief (see Zavlis et al., 2024 for details), the first equation is the same as the one from static evaluation but extended over time to highlight that the evaluation of a stimulus at time point _t_ is predicated on the weighted prediction error between a referenced (i.e., expected or desired) stimulus for the same time point versus an observed (received) stimulus at that time point. The second equation enables the reference point to change over time based on the Rescorla-Wagner rule (which implies that ‘prediction errors’ drive learning about what the reference point should be in the future (μ_(t+1)).
+
