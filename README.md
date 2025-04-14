@@ -15,7 +15,7 @@ In its static form, the model proposes that the affective value V(R) of a stimul
 $V(R)=logistic(π(R-μ))$
 </p>
 
-where V(R) is the subjective value of a given stimulus (which, given the logistic function, is bounded between 0 and 1); _R_ is the real value of the stimulus (e.g., $10); _μ_ is the reference-point (e.g., a desired amount of $20); and _π_ is the ‘weight’ attached to a given prediction error. 
+where $V(R)$ is the subjective value of a given stimulus (which, given the logistic function, is bounded between 0 and 1); $R$ is the real value of the stimulus (e.g., $10); _μ_ is the reference-point (e.g., a desired amount of $20); and _π_ is the ‘weight’ attached to a given prediction error. 
 
 In brief (see Zavlis et al., 2024 for details), this equation implies that the evaluation of a stimulus is based on two parameters. First, evaluation is based on one's reference point: When the objective value of a stimulus is higher than that reference point (R>μ), a reward is experienced (V(R) > 0.5); when it is lower (R < μ), a punishment is experienced (V(R) < 0.5); finally, when the two are equal (i.e., the stimulus matches the reference point; R = μ), the experience is neutral (V(R) = 0.5). Second, evaluation is based on one's certainty over the meaning of the predictiion error: When one's certainty is low (low _π_), their emotional experience will be blunted (deflated prediction error); however, when one's certainty is high (high _π_), their emotional experience will be intensified (inflated prediction error). 
 
@@ -34,5 +34,5 @@ $V(R_t)=logistic(π(R_t-μ_t))$
 $μ_{t+1}=μ_t + α(R_t-μ_t)$
 </p>
 
-where $V(R_t)$ refers to the affective value at time t, R_t to its raw counterpart at time t; μ_t and μ_(t+1) are the reference points at times t and t+1, respectively; π is the weight parameter; and α [0,1] is the learning rate (of the reference point). 
+where $V(R_t)$ refers to the affective value at time $t$, $R_t$ to its raw counterpart at time $t$; $μ_t$ and $μ_{t+1}$ are the reference points at times $t$ and $t+1$, respectively; $π$ is the weight parameter; and $α$ [0,1] is the learning rate (of the reference point). 
 
